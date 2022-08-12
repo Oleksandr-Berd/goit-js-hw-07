@@ -43,7 +43,7 @@ function onClick(evt) {
   window.addEventListener("keydown", onEscPress);
 
   function onEscPress(evt) {
-    if (evt.code === "Tab") {
+    if (evt.code === "KeyQ") {
       instance.close();
     }
   }
