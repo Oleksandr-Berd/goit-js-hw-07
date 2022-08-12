@@ -43,7 +43,7 @@ function onClick(evt) {
   window.addEventListener("keydown", onEscPress);
 
   function onEscPress(evt) {
-    if (evt.code === "KeyQ") {
+    if (evt.code === "Escape") {
       instance.close();
     }
   }
