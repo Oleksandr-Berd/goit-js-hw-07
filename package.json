@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "basiclightbox": "^5.0.4",
-    "jsdelivr": "^0.1.2"
+    "jsdelivr": "^0.1.2",
+    "simplelightbox": "^2.10.3"
   }
 }
