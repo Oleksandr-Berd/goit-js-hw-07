@@ -17,7 +17,7 @@ const myGallery = document.querySelector(".gallery");
 
 myGallery.insertAdjacentHTML("afterbegin", lightboxLayout);
 
-myGallery.addEventListener("click", onClick);
+myGallery.addEventListener("click", onClick, { once: true });
 
 function onClick(evt) {
   evt.preventDefault();
