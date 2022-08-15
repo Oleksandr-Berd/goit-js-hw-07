@@ -21,7 +21,6 @@ myGallery.addEventListener("click", onClick, { once: true });
 
 function onClick(evt) {
   evt.preventDefault();
-  const urlImg = evt.target;
 
   let lightbox = new SimpleLightbox(".gallery__item", {
     captionsData: `alt`,
