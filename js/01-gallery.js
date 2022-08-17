@@ -1,9 +1,11 @@
 import { galleryItems } from "./gallery-items.js";
 // Change code below this line
 
-// const basicLightbox = require("basiclightbox");
+const basicLightbox = require("basiclightbox");
 
-// import * as basicLightbox from "basicLightbox";
+// import SimpleLightbox from "simplelightbox";
+
+import "simplelightbox/dist/simple-lightbox.min.css";
 
 const galleryLayout = createLayout(galleryItems);
 
